@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Kecualikan token JWT saat backup ke cloud -->
+        <exclude domain="sharedpref" path="edusafe_secure_prefs.xml" />
+        <exclude domain="file" path="edusafe_dongle.key" />
+        <exclude domain="external" path="uploads/" />
+    </cloud-backup>
+    <device-transfer>
+        <!-- Izinkan transfer ke HP baru (misal saat ganti HP) -->
+        <include domain="sharedpref" path="." />
+        <include domain="file" path="." />
+    </device-transfer>
+</data-extraction-rules>

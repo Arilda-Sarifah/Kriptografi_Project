@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EduSafe Kripto</string>
+    <string name="title_login">🔐 EduSafe Login</string>
+    <string name="title_register">📝 EduSafe Register</string>
+    <string name="title_dashboard">🏫 Dashboard</string>
+    <string name="title_messaging">🔒 Secure Messaging</string>
+    <string name="title_file_upload">📁 Secure File Upload</string>
+    <string name="title_certificate">🖼️ Certificate Generator</string>
+    <string name="biometric_title">Verifikasi Biometrik</string>
+    <string name="biometric_subtitle">Sentuh sensor sidik jari</string>
+</resources>

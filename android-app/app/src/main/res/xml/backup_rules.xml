@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Kecualikan file token JWT dari backup otomatis -->
+    <exclude domain="sharedpref" path="edusafe_secure_prefs.xml" />
+    
+    <!-- Kecualikan file dongle dari backup -->
+    <exclude domain="file" path="edusafe_dongle.key" />
+    
+    <!-- Kecualikan cache gambar sertifikat -->
+    <exclude domain="external" path="uploads/" />
+</full-backup-content>
